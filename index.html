@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>truncate-text Web Component</title>
 
-    <script src="bower_components/platform/platform.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="src/truncate-text.html">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,700">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/foundation.min.css">
@@ -120,7 +120,7 @@
 <pre>
     <code>
     &lt;p&gt;
-        &lt;truncate-text characters="75" breaklastword="true"&gt;
+        &lt;truncate-text characters="75" breaklastword&gt;
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Consequuntur, molestias, consequatur. Ipsam adipisci iure,
             labore facilis sequi natus, nihil error explicabo ea pariatur
@@ -134,7 +134,7 @@
 <h3>Will render:</h3>
 
 <p>
-    <truncate-text characters="75" breaklastword="true">
+    <truncate-text characters="75" breaklastword>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Consequuntur, molestias, consequatur. Ipsam adipisci iure, labore
         facilis sequi natus, nihil error explicabo ea pariatur rerum unde
